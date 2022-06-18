@@ -6,7 +6,13 @@ using namespace std;
 
 int main(){
 	vector<int> v;
-	v = {1,4,71,62,33,0,-5};
+	int a,b;
+	cin >> b;
+	for(int i=0;i<b;i++){
+		cin >> a;
+		v.push_back(a);
+	}
+	
 
 	for(int i=0;i<v.size()-1;i++){
 		int ind;
