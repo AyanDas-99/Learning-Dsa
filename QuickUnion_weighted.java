@@ -29,7 +29,7 @@ class UnionFind {
     }
 }
 
-public class QuickUnion_Lazy {
+public class QuickUnion_weighted{
     public static void main(String[] args) {
         UnionFind a = new UnionFind(10);
         a.Union(9, 2);
