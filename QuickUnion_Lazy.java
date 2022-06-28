@@ -1,8 +1,8 @@
 
-class UnionFind {
+class LazyUnionFind {
     private int[] id;
 
-    public UnionFind(int N) {
+    public LazyUnionFind(int N) {
         id = new int[N];
         for (int i = 0; i < N; i++) {
             id[i] = i;
@@ -28,7 +28,7 @@ class UnionFind {
 
 public class QuickUnion_Lazy {
     public static void main(String[] args) {
-        UnionFind a = new UnionFind(10);
+        unionFind a = new unionFind(10);
         a.Union(9, 2);
         a.Union(4, 3);
         a.Union(6, 5);
