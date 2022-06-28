@@ -1,8 +1,8 @@
 
-class UnionFind {
+class unionFind {
     private int[] id;
     private int[] size;
-    public UnionFind(int N) {
+    public unionFind(int N) {
         id = new int[N];
         size = new int[N];
         for (int i = 0; i < N; i++) {
@@ -31,7 +31,7 @@ class UnionFind {
 
 public class QuickUnion_weighted{
     public static void main(String[] args) {
-        UnionFind a = new UnionFind(10);
+        unionFind a = new unionFind(10);
         a.Union(9, 2);
         a.Union(4, 3);
         a.Union(6, 5);
