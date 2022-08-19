@@ -25,6 +25,7 @@ public class countingsort {
         int sums = 0;
         for(int i = 0; i< count.length; i++) {
             sums += count[i];
+            // count[i] += count[i-1];
             count[i] = sums;
         }
 
